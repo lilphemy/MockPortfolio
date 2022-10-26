@@ -1,0 +1,15 @@
+{
+  "name": "node_dependencies",
+  "version": "1.0.0",
+  "description": "to sync with node projects",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "lilphemy",
+  "license": "ISC",
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "uuid": "^9.0.0"
+  }
+}

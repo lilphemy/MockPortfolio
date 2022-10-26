@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+}
+
+div[img]{
+    width: 100%;
+    height: 100%;
+}
+
+.picked {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+div[class = "head-sect"]{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: dodgerblue;
+    margin: 0.4rem;
+    border-radius: 0.8rem;
+}
+
+.logo-block {
+    width: 10%;
+}
+
+.titles-selection {
+    display: none;
+    position: relative;
+    width: 100vw;
+
+}
+
+.list-items {
+    position: absolute;
+    right: 1rem;
+    z-index: 5;
+    background-color: dodgerblue;
+    padding: 10px;
+    width: 23em;
+    text-align: right;
+}
+
+.titles-selection ul li {
+    margin: 2rem auto;
+    list-style-type: none;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+}
+
+.titles-selection ul li a {
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration-line: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    margin: 3rem 0.7rem;
+}
+
+.author-hero_image {
+    width: 100rem;
+    margin: 0.3rem;
+}
+
+.author-hero_image > img{
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.about-text{
+    font-size: 25px;
+    text-align: left;
+    margin: 1rem;
+}
+
+.about-text h2 {
+    color: rgba(20, 20, 20);
+}
+.about-text p {
+    color: tomato;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.main-proj_sec {
+    margin: 2rem;
+}
+
+.main-proj_sec > div[class="proj-title"] > h2 {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: dodgerblue;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 1rem 1rem;
+}
+
+.main-proj_sec div[class = "pro-desc"] {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    color: dodgerblue;
+    margin: 2rem 0.7rem;
+}
+
+.pro-desc > button[class="pro-btn"] {
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.pro-btn {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 1rem;
+    border: 3px solid rgb(225, 56, 56);
+    background-color: white;
+    outline: none;
+}
+
+.pro-btn a {
+    text-decoration: none;
+    color: rgb(225, 56, 56);
+}
+
+.skill-box, .hobbies-block {
+    box-shadow: 1px 0.3px 1px 1px tomato;
+    width: 80%;
+    margin: 0 auto;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    color: hsl(50, 90%, 20%);
+    padding: 10px;
+}
+
+.hobbies-title {
+    color: dodgerblue;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hobbies-sub_block {
+    margin: 1rem;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*contact page styles*/
+
+.contact-details {
+    height: 90vh;
+}
+
+.contact-head {
+    width: 80%;
+    border: 2px solid tomato;
+    margin: 0 auto;
+    margin: 1rem auto;
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+}
+
+/*footer styling */ 
+
+footer {
+    background-color: #888;
+    height: 3em;
+}
+
+
+.footer-blocks {
+    float: left;
+    margin: auto 0.4rem;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+
+}
+
+.minor-blocks {
+    float: left;
+    margin: auto 1rem;
+    color: blue;
+}
+
